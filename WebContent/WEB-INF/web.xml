@@ -9,4 +9,13 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  
+  <servlet>
+  	<servlet-name>Servlet2Jsp</servlet-name>
+  	<servlet-class>Servlet2Jsp</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Servlet2Jsp</servlet-name>
+  	<url-pattern>/msb_servlet_jsp/Servlet2Jsp</url-pattern>
+  </servlet-mapping>
 </web-app>
